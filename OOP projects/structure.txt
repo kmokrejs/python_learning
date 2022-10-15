@@ -1,0 +1,34 @@
+Classes:
+    Address:
+        country: string
+        city: string
+        streetAdress: string
+        postalCode: string
+
+
+    Person:
+        firstName: string
+        lastName: string
+        dateOfBirth: date
+        phoneNumber: string
+
+    Student:
+        intrnational: boolean
+        isPartTime(): boolean
+        isOnProbation(): boolean
+
+    Professor:
+        salary: float
+
+    Course:
+        name: string
+        code: string
+        minStudents: integer
+        maxStudents: integer
+        start: date
+        end: date
+        isCanceled(): boolean
+        
+    Enrol
+        date: date
+        grade: float
